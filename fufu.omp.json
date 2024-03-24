@@ -17,7 +17,7 @@
           },
           "trailing_diamond": "",
           "template": "aa {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} <transparent>\ue0b6</>",
-          "type": "python"
+          "type": "session"
         },
         {
           "background": "#ff479c",
