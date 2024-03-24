@@ -1,3 +1,4 @@
+// for windows only
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
@@ -9,9 +10,14 @@
           "foreground": "#ffffff",
           "leading_diamond": "",
           "style": "diamond",
-          "template": " {{ .UserName }} ",
+          "properties": {
+            "fetch_virtual_env": true,
+            "display_virtual_env": true,
+            "display_mode": "environment"
+          },
           "trailing_diamond": "",
-          "type": "session"
+          "template": "aa {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} <transparent>\ue0b6</>",
+          "type": "python"
         },
         {
           "background": "#ff479c",
