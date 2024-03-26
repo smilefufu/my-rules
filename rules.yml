@@ -907,9 +907,6 @@ rules:
   - DOMAIN-SUFFIX,sogo.com,DIRECT
   - DOMAIN-SUFFIX,sogou.com,DIRECT
   - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
-  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
-  - DOMAIN-SUFFIX,steampowered.com,DIRECT
-  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
   - DOMAIN-SUFFIX,gtimg.com,DIRECT
   - DOMAIN-SUFFIX,idqqimg.com,DIRECT
   - DOMAIN-SUFFIX,igamecj.com,DIRECT
