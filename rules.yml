@@ -782,7 +782,8 @@ rules:
   - DOMAIN-SUFFIX,zaobao.com.sg,Proxy
   - DOMAIN,international-gfe.download.nvidia.com,Proxy
   - DOMAIN,ocsp.apple.com,Proxy
-  - DOMAIN-KEYWORD,claude.ai,Proxy
+  - DOMAIN-SUFFIX,claude.ai,Proxy
+  - DOMAIN,claude.ai,Proxy
   - DOMAIN-SUFFIX,anthropic.com,Proxy
   - DOMAIN-SUFFIX,coze.com,Proxy
   - DOMAIN-SUFFIX,ciciai.com,Proxy
