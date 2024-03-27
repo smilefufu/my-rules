@@ -795,6 +795,7 @@ rules:
   - DOMAIN-SUFFIX,discord.com,Proxy
   - DOMAIN,files.pythonhosted.org,Proxy
   - DOMAIN-SUFFIX,steampowered.com,Proxy
+  - DOMAIN-SUFFIX,fluence.network,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
