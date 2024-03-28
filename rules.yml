@@ -802,6 +802,7 @@ rules:
   - DOMAIN-SUFFIX,rbx.com,Proxy
   - DOMAIN-SUFFIX,roblox-api.arkoselabs.com,Proxy
   - DOMAIN-SUFFIX,appsflyer.com,Proxy
+  - DOMAIN-SUFFIX,onekey.so,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
