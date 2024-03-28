@@ -800,6 +800,7 @@ rules:
   - DOMAIN-SUFFIX,roblox.com,Proxy
   - DOMAIN-SUFFIX,rbxcdn.com,Proxy
   - DOMAIN-SUFFIX,rbx.com,Proxy
+  - DOMAIN-SUFFIX,roblox-api.arkoselabs.com,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
