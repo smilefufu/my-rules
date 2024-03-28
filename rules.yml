@@ -797,6 +797,7 @@ rules:
   - DOMAIN-SUFFIX,steampowered.com,Proxy
   - DOMAIN-SUFFIX,fluence.network,Proxy
   - DOMAIN-SUFFIX,discord.gg,Proxy
+  - DOMAIN-SUFFIX,roblox.com,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
