@@ -792,6 +792,9 @@ rules:
   - DOMAIN-SUFFIX,mexc.com,Proxy
   - DOMAIN-SUFFIX,mexcsensors.com,Proxy
   - DOMAIN-SUFFIX,greentreeone.com,Proxy
+  - DOMAIN-SUFFIX,gdiii.xyz,Proxy
+  - DOMAIN-SUFFIX,engageforce.net,Proxy
+  - DOMAIN-SUFFIX,mocortech.com,Proxy
   - DOMAIN-SUFFIX,openai.com,Proxy
   - DOMAIN-SUFFIX,gog.com,Proxy
   - DOMAIN-SUFFIX,discord.com,Proxy
