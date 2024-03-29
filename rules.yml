@@ -791,6 +791,7 @@ rules:
   - DOMAIN-SUFFIX,tradingview.com,Proxy
   - DOMAIN-SUFFIX,mexc.com,Proxy
   - DOMAIN-SUFFIX,mexcsensors.com,Proxy
+  - DOMAIN-SUFFIX,greentreeone.com,Proxy
   - DOMAIN-SUFFIX,openai.com,Proxy
   - DOMAIN-SUFFIX,gog.com,Proxy
   - DOMAIN-SUFFIX,discord.com,Proxy
