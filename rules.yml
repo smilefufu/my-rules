@@ -810,6 +810,7 @@ rules:
   - DOMAIN-SUFFIX,onekey.so,Proxy
   - DOMAIN-SUFFIX,coingecko.com,Proxy
   - DOMAIN-SUFFIX,kraken.com,Proxy
+  - DOMAIN-SUFFIX,coinmarketcap.com,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
