@@ -814,6 +814,8 @@ rules:
   - DOMAIN-SUFFIX,jsdelivr.net,Proxy
   - DOMAIN-SUFFIX,copilot.microsoft.com,Proxy
   - DOMAIN-SUFFIX,io.solutions,Proxy
+  - DOMAIN-SUFFIX,meta.com,Proxy
+  - DOMAIN-SUFFIX,meta.ai,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
