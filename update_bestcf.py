@@ -43,6 +43,7 @@ def get_local_test():
     
 
 if __name__ == "__main__":
+    os.system('git pull origin main --no-ff') 
     default_ip = """icook.hk:443#HK
 icook.tw:443#TW
 8.218.207.169:443#HK
@@ -56,7 +57,8 @@ icook.tw:443#TW
 47.245.57.38:8443#JP""".split()
     yes_ip = get_cf_yes()
     test_ip = get_local_test()
+    total = list(set(test_ip+yes_ip+default_ip))
     with open("./best-cf", "w") as handler:
-        handler.write("\n".join(test_ip+yes_ip+default_ip))
+        handler.write("\n".join(total))
     os.system('git commit -m "update" best-cf')
     os.system('git push origin main')
