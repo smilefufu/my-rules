@@ -820,6 +820,7 @@ rules:
   - DOMAIN-SUFFIX,docker.com,Proxy
   - DOMAIN-SUFFIX,io.systems,Proxy
   - DOMAIN-SUFFIX,infura.io,Proxy
+  - DOMAIN-SUFFIX,x.com,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
