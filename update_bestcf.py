@@ -1,5 +1,8 @@
 import os
+import re
 import csv
+import base64
+from urllib.parse import unquote
 import requests
 
 
@@ -33,31 +36,66 @@ def get_local_test():
     result_file = "./result.csv"
     if os.path.exists(result_file):
         os.remove(result_file)
-    os.system("CloudflareST")
+    os.system("CloudflareST -sl 5")
     ret = []
     with open(result_file, "r") as f:
         reader = csv.reader(f)
         for row in list(reader)[1:]:
             ret.append(f"{row[0]}:443#CFIP")
     return ret
-    
+
+def validate_ip(ip):
+    parts = ip.split('.')
+    if len(parts) != 4:
+        return False
+    for part in parts:
+        if not part.isdigit() or not 0 <= int(part) <= 255:
+            return False
+    return True
+
+def validate_port(port):
+    return port.isdigit() and 0 <= int(port) <= 65535
+
+def parse_string(string):
+    pattern = r'vless:\/\/.*?@([\d\.]+):(\d+).*?#(.*?)$'
+    match = re.match(pattern, string)
+    if match:
+        ip = match.group(1)
+        port = match.group(2)
+        memo = match.group(3)
+        if validate_ip(ip) and validate_port(port):
+            return ip, int(port), memo
+    return None
+
+def get_happy_hour():
+    txt = requests.get("https://url.happyhour.lol/Happyhour").text
+    # base64 解码
+    r = base64.b64decode(txt)
+    sub = unquote(r.decode('utf-8'))
+    ret = []
+    for line in sub.split("\n"):
+        r = parse_string(line)
+        if r:
+            ip, port, name = r
+            if "mianfei" in name:
+                name = "default"
+            elif "关注" in name:
+                name = "default2"
+            if "-" in name:
+                name = name.split("-")[-1]
+            ret.append(f"{ip}:{port}#{name}")
+    return ret
 
 if __name__ == "__main__":
     os.system('git pull origin main --no-ff') 
     default_ip = """icook.hk:443#HK
-icook.tw:443#TW
-8.218.207.169:443#HK
-47.243.173.187:2083#HK
-8.217.85.14:2083#HK
-47.245.55.94:2083#JP
-47.74.24.109:2053#JP
-47.245.13.93:8443#JP
-45.66.128.215:51357#JP
-47.245.8.185:2096#JP
-47.245.57.38:8443#JP""".split()
+icook.tw:443#TW""".split()
+    default_ip = []
+    hp_ip = get_happy_hour()
     yes_ip = get_cf_yes()
-    test_ip = get_local_test()
-    total = list(set(test_ip+yes_ip+default_ip))
+    # test_ip = get_local_test()
+    test_ip = []
+    total = list(set(hp_ip+test_ip+yes_ip+default_ip))
     with open("./best-cf", "w") as handler:
         handler.write("\n".join(total))
     os.system('git commit -m "update" best-cf')
