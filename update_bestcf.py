@@ -36,7 +36,7 @@ def get_local_test():
     result_file = "./result.csv"
     if os.path.exists(result_file):
         os.remove(result_file)
-    os.system("CloudflareST -sl 5")
+    os.system("CloudflareST -sl 0.1 -p 3")
     ret = []
     with open(result_file, "r") as f:
         reader = csv.reader(f)
@@ -83,18 +83,16 @@ def get_happy_hour():
                 name = "default2"
             if "-" in name:
                 name = name.split("-")[-1]
-            ret.append(f"{ip}:{port}#{name}")
+            ret.append(f"{ip}:{port}#{name.replace(' ', '')}·")
     return ret
 
 if __name__ == "__main__":
     os.system('git pull origin main --no-ff') 
-    default_ip = """icook.hk:443#HK
-icook.tw:443#TW""".split()
     default_ip = []
     hp_ip = get_happy_hour()
     yes_ip = get_cf_yes()
-    # test_ip = get_local_test()
     test_ip = []
+    test_ip = get_local_test()
     total = list(set(hp_ip+test_ip+yes_ip+default_ip))
     with open("./best-cf", "w") as handler:
         handler.write("\n".join(total))

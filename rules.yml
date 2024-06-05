@@ -827,6 +827,7 @@ rules:
   - DOMAIN-SUFFIX,scallop.io,Proxy
   - DOMAIN-SUFFIX,api.ip2location.io,Proxy
   - DOMAIN-SUFFIX,lmsys.org,Proxy
+  - DOMAIN-SUFFIX,binance.org,Proxy
   - DOMAIN,dev.vongcloud.com,DIRECT
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
