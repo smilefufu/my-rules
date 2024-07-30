@@ -829,6 +829,7 @@ rules:
   - DOMAIN-SUFFIX,lmsys.org,Proxy
   - DOMAIN-SUFFIX,binance.org,Proxy
   - DOMAIN-SUFFIX,groq.com,Proxy
+  - DOMAIN-SUFFIX,defined.fi,Proxy
   - DOMAIN,dev.vongcloud.com,DIRECT
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
