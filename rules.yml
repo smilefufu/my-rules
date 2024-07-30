@@ -830,6 +830,10 @@ rules:
   - DOMAIN-SUFFIX,binance.org,Proxy
   - DOMAIN-SUFFIX,groq.com,Proxy
   - DOMAIN-SUFFIX,defined.fi,Proxy
+  - DOMAIN-SUFFIX,privy.io,Proxy
+  - DOMAIN-SUFFIX,cloudflareinsights.com,Proxy
+  - DOMAIN-SUFFIX,googletagmanager.com,Proxy
+  - DOMAIN-SUFFIX,cloudfront.net,Proxy
   - DOMAIN,dev.vongcloud.com,DIRECT
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
