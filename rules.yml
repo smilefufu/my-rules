@@ -836,6 +836,7 @@ rules:
   - DOMAIN-SUFFIX,cloudfront.net,Proxy
   - DOMAIN-SUFFIX,oaistatic.cmo,Proxy
   - DOMAIN-SUFFIX,thepiratebay.org,Proxy
+  - DOMAIN-SUFFIX,tpb.party,Proxy
   - DOMAIN,dev.vongcloud.com,DIRECT
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
