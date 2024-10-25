@@ -1,1 +1,1 @@
-cd /home/fufu/cf_best_ip/my-rules; python3 update_bestcf.py
+cd /home/fufu/codes/my-rules; python3 update_bestcf.py
