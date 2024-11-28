@@ -839,6 +839,7 @@ rules:
   - DOMAIN-SUFFIX,tpb.party,Proxy
   - DOMAIN-SUFFIX,redditstatic.com,Proxy
   - DOMAIN-SUFFIX,openart.ai,Proxy
+  - DOMAIN-SUFFIX,githubassets.com,Proxy
   - DOMAIN,dev.vongcloud.com,DIRECT
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
