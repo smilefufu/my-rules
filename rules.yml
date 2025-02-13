@@ -845,7 +845,9 @@ rules:
   - DOMAIN-SUFFIX,bitget.com,Proxy
   - DOMAIN-SUFFIX,webshare.io,Proxy
   - DOMAIN-SUFFIX,claudeusercontent.com,Proxy
-  - DOMAIN,dev.vongcloud.com,DIRECT
+  - DOMAIN-SUFFIX,pump.fun,Proxy
+  - DOMAIN-SUFFIX,solscan.io,Proxy
+  - DOMAIN,vongcloud.com,DIRECT
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
