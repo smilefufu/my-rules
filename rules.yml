@@ -614,7 +614,6 @@ rules:
   - DOMAIN-SUFFIX,spiegel.de,Proxy
   - DOMAIN-SUFFIX,ssrcloud.org,Proxy
   - DOMAIN-SUFFIX,startpage.com,Proxy
-  - DOMAIN-SUFFIX,steamcommunity.com,Proxy
   - DOMAIN-SUFFIX,steemit.com,Proxy
   - DOMAIN-SUFFIX,steemitwallet.com,Proxy
   - DOMAIN-SUFFIX,straitstimes.com,Proxy
@@ -799,7 +798,6 @@ rules:
   - DOMAIN-SUFFIX,gog.com,Proxy
   - DOMAIN-SUFFIX,discord.com,Proxy
   - DOMAIN,files.pythonhosted.org,Proxy
-  - DOMAIN-SUFFIX,steampowered.com,Proxy
   - DOMAIN-SUFFIX,fluence.network,Proxy
   - DOMAIN-SUFFIX,discord.gg,Proxy
   - DOMAIN-SUFFIX,roblox.com,Proxy
