@@ -82,8 +82,6 @@ rules:
   - DOMAIN,linear.tv.apple.com,Streaming
   - DOMAIN,play-edge.itunes.apple.com,Streaming
   - PROCESS-NAME,tw.com.gamer.android.animad,Streaming
-  - DOMAIN-SUFFIX,bahamut.com.tw,Streaming
-  - DOMAIN-SUFFIX,gamer.com.tw,Streaming
   - DOMAIN,gamer-cds.cdn.hinet.net,Streaming
   - DOMAIN,gamer2-cds.cdn.hinet.net,Streaming
   - PROCESS-NAME,bbc.iplayer.android,Streaming
@@ -847,7 +845,8 @@ rules:
   - DOMAIN-SUFFIX,solscan.io,Proxy
   - DOMAIN-SUFFIX,steamcommunity.com,Proxy
   - DOMAIN-SUFFIX,catalogapi.azure.com,Proxy
-  - DOMAIN,vongcloud.com,DIRECT
+  - DOMAIN-SUFFIX,bahamut.com.tw,Proxy
+  - DOMAIN-SUFFIX,gamer.com.tw,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
