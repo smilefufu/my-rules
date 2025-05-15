@@ -847,6 +847,7 @@ rules:
   - DOMAIN-SUFFIX,catalogapi.azure.com,Proxy
   - DOMAIN-SUFFIX,bahamut.com.tw,Proxy
   - DOMAIN-SUFFIX,gamer.com.tw,Proxy
+  - DOMAIN-SUFFIX,firebaseapp.com,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
