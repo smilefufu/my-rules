@@ -843,7 +843,6 @@ rules:
   - DOMAIN-SUFFIX,claudeusercontent.com,Proxy
   - DOMAIN-SUFFIX,pump.fun,Proxy
   - DOMAIN-SUFFIX,solscan.io,Proxy
-  - DOMAIN-SUFFIX,steamcommunity.com,Proxy
   - DOMAIN-SUFFIX,catalogapi.azure.com,Proxy
   - DOMAIN-SUFFIX,bahamut.com.tw,Proxy
   - DOMAIN-SUFFIX,gamer.com.tw,Proxy
