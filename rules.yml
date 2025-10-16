@@ -8,7 +8,7 @@ rules:
   - DOMAIN,dl.google.com,DIRECT
   - DOMAIN,dl.l.google.com,DIRECT
   - DOMAIN,fonts.googleapis.com,DIRECT
-  - DOMAIN,fonts.gstatic.com,DIRECT
+    #- DOMAIN,fonts.gstatic.com,DIRECT
   - DOMAIN,mtalk.google.com,DIRECT
   - DOMAIN,alt1-mtalk.google.com,DIRECT
   - DOMAIN,alt2-mtalk.google.com,DIRECT
