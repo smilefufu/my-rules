@@ -850,6 +850,7 @@ rules:
   - DOMAIN-SUFFIX,firebaseapp.com,Proxy
   - DOMAIN-SUFFIX,g.co,Proxy
   - DOMAIN-SUFFIX,linux.do,Proxy
+  - DOMAIN-SUFFIX,open-vsx.org,Proxy
   - DOMAIN,store-images.s-microsoft.com,DIRECT
   - DOMAIN-SUFFIX,qhres.com,DIRECT
   - DOMAIN-SUFFIX,qhimg.com,DIRECT
