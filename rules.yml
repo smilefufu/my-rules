@@ -455,9 +455,9 @@ rules:
   - DOMAIN-SUFFIX,genius.com,Proxy
   - DOMAIN-SUFFIX,getlantern.org,Proxy
   - DOMAIN-SUFFIX,getsync.com,Proxy
-  - DOMAIN-SUFFIX,github.com,Proxy
-  - DOMAIN-SUFFIX,github.io,Proxy
-  - DOMAIN-SUFFIX,githubusercontent.com,Proxy
+    #- DOMAIN-SUFFIX,github.com,Proxy
+    #- DOMAIN-SUFFIX,github.io,Proxy
+    #- DOMAIN-SUFFIX,githubusercontent.com,Proxy
   - DOMAIN-SUFFIX,globalvoices.org,Proxy
   - DOMAIN-SUFFIX,goo.ne.jp,Proxy
   - DOMAIN-SUFFIX,goodreads.com,Proxy
